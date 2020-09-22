@@ -56,7 +56,7 @@ export const Pagination = ({ totalMovies }) => {
                <button
                  onClick={() => {
                    changePage(number);
-                   window.scrollTo(140, 140);
+                   window.scrollTo(145, 150);
                  }}
                  className={cn({
                    'pagination__button': true,
