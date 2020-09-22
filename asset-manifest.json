@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React_Movie-search-engine/static/css/main.66084582.chunk.css",
+    "main.js": "/React_Movie-search-engine/static/js/main.e4933a15.chunk.js",
+    "main.js.map": "/React_Movie-search-engine/static/js/main.e4933a15.chunk.js.map",
+    "runtime-main.js": "/React_Movie-search-engine/static/js/runtime-main.c0ab5b43.js",
+    "runtime-main.js.map": "/React_Movie-search-engine/static/js/runtime-main.c0ab5b43.js.map",
+    "static/js/2.b7905fc4.chunk.js": "/React_Movie-search-engine/static/js/2.b7905fc4.chunk.js",
+    "static/js/2.b7905fc4.chunk.js.map": "/React_Movie-search-engine/static/js/2.b7905fc4.chunk.js.map",
+    "index.html": "/React_Movie-search-engine/index.html",
+    "precache-manifest.3bee0dfff62f976e526f722e179b0d41.js": "/React_Movie-search-engine/precache-manifest.3bee0dfff62f976e526f722e179b0d41.js",
+    "service-worker.js": "/React_Movie-search-engine/service-worker.js",
+    "static/css/main.66084582.chunk.css.map": "/React_Movie-search-engine/static/css/main.66084582.chunk.css.map",
+    "static/js/2.b7905fc4.chunk.js.LICENSE.txt": "/React_Movie-search-engine/static/js/2.b7905fc4.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/React_Movie-search-engine/static/media/Mont-SemiBold.d41a520b.otf",
+    "static/media/pagination.scss": "/React_Movie-search-engine/static/media/right.6be89622.svg",
+    "static/media/poster_none.png": "/React_Movie-search-engine/static/media/poster_none.d38bc38a.png",
+    "static/media/MovieDetails.scss": "/React_Movie-search-engine/static/media/rating-star.b9aef880.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0ab5b43.js",
+    "static/js/2.b7905fc4.chunk.js",
+    "static/css/main.66084582.chunk.css",
+    "static/js/main.e4933a15.chunk.js"
+  ]
+}
