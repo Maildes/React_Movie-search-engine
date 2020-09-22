@@ -20,6 +20,9 @@ export const MovieForm = ({ errorNotice, setErrorNotice }) => {
   
   const handleSubmit = (event) => {
       event.preventDefault();
+      if (value === '') {
+        return
+      }
       dispatch(setFilter(value));
       dispatch(setPage(1));
       setValue('');
