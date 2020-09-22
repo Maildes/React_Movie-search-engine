@@ -4,6 +4,7 @@ import './MovieForm.scss';
 import { useSelector, useDispatch } from 'react-redux';
 import { getError, getFilter } from '../../redux/store';
 import { setFilter } from '../../redux/filter';
+import { setError } from '../../redux/error';
 import { setPage } from '../../redux/currentPage';
 
 export const MovieForm = ({ errorNotice, setErrorNotice }) => {
@@ -14,13 +15,15 @@ export const MovieForm = ({ errorNotice, setErrorNotice }) => {
   
   useEffect(() => {
     setValue('');
-    
+
   }, [query])
 
   
   const handleSubmit = (event) => {
-      event.preventDefault();
-      if (value === '') {
+    event.preventDefault();
+    if (value === '') {
+        dispatch(setError('Please enter the movie you are interested in'));
+        setErrorNotice(true);
         return
       }
       dispatch(setFilter(value));

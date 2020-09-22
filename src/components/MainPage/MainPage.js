@@ -85,7 +85,9 @@ export const MainPage = () => {
   return (
     <main className="page-content">
       <header className="header">
-        {!isLoading && <h1>Who seeks shall find :)</h1> }
+        <h1 className="header__title">
+          Who seeks shall find :)
+        </h1>
         <MovieForm
           loadMovies={loadMovies}
           errorNotice={notice}
