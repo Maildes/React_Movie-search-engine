@@ -4,6 +4,8 @@
   justify-content: center;
   text-align: left;
   padding: 40px 30px;
+  min-height: 80vh;
+  background-color: white;
 
   @media screen and (max-width: 680px) {
     flex-direction: column;

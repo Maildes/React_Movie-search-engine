@@ -28,6 +28,10 @@
     &:focus {
       border-color: #90c4d8;
     }
+
+    @media screen and (max-width: 680px) {
+      font-size: 15px;
+    }
   }
 
   &__input-error {
@@ -50,6 +54,10 @@
       background-color: snow;
       outline: none;
       box-shadow: 0 0 22px -4px rgba(50,153,210,1);
+    }
+
+    @media screen and (max-width: 680px) {
+      font-size: 13px;
     }
   }
 

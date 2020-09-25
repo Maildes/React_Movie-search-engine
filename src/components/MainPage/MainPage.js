@@ -19,6 +19,7 @@ import { HistorySearch } from '../HistorySearch/HistorySearch';
 import { clearSearchMovie, setNewSearchMovie } from '../../redux/historySearch';
 import { setFilter } from '../../redux/filter';
 import { HelloMarakas } from '../../helpers/HelloMarakas';
+import {Loader} from "../Loader/Loader";
 
 export const MainPage = () => {
   const dispatch = useDispatch();

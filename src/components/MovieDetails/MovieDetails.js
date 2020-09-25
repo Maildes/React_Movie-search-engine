@@ -38,13 +38,19 @@ export const MovieDetails = ({ history }) => {
     }
   };
   
+  const visibleMovie = Object.keys(isMovie);
+  
   useEffect(() => {
     loadMovieDetails();
   }, [isId]);
   
+  if(isLoading) {
+    return <Loader />
+  }
+  
   return (
     <section className="movie movie__info">
-      {!isLoading ?
+      {!isLoading &&
         <>
           <button
             className="movie__button--back"
@@ -113,8 +119,6 @@ export const MovieDetails = ({ history }) => {
             </article>
           </div>
         </>
-        :
-        <Loader />
       }
     </section>
   )
